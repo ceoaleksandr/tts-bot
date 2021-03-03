@@ -1,0 +1,26 @@
+{
+  "name": "tts-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "export NODE_ENV=development; nodemon --exec babel-node ./index.js",
+    "start": "export NODE_ENV=production; babel-node ./index.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "consola": "^2.14.0",
+    "dotenv": "^8.2.0",
+    "google-tts-api": "^0.0.4",
+    "languagedetect": "^2.0.0",
+    "node-fetch": "^2.6.0",
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-standard": "^14.1.1",
+    "nodemon": "^2.0.4"
+  }
+}
